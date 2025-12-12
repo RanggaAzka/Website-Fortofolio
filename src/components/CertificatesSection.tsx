@@ -2,14 +2,18 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef, useState } from "react";
 import { Award, ExternalLink, Calendar, Building2, X, ChevronLeft, ChevronRight } from "lucide-react";
+import Sertif1 from "@/assets/sertif-1.jpg";
+import Sertif2 from "@/assets/sertif-2.jpg";
+import Coming from "@/assets/coming-soon-background-with-focus-light-effect-design_1017-27277.avif";
+
 
 const certificates = [
-  {
+   {
     title: "Sertifikat Kompetensi",
     issuer: "Kreasi Media",
     date: "Desember 2024",
     credentialId: "1",
-    image: "src/assets/sertif-1.jpg",
+    image: Sertif1,
     description: "Sebuah website Travel.",
     color: "from-orange-500 to-yellow-500",
   },
@@ -18,7 +22,7 @@ const certificates = [
     issuer: "Ginvo Studio",
     date: "June 2025",
     credentialId: "2",
-    image: "src/assets/sertif-2.jpg",
+    image: Sertif2,
     description: "Sebuah website sistem pemilihan ketua osis.",
     color: "from-blue-500 to-cyan-500",
   },
@@ -27,7 +31,7 @@ const certificates = [
     issuer: "Soon",
     date: "Soon",
     credentialId: "Soon",
-    image: "src/assets/coming-soon-background-with-focus-light-effect-design_1017-27277.avif",
+    image: Coming,
     description: "unknown.",
     color: "from-blue-600 to-indigo-500",
   },
@@ -36,7 +40,7 @@ const certificates = [
     issuer: "Soon",
     date: "Soon",
     credentialId: "Soon",
-    image: "src/assets/coming-soon-background-with-focus-light-effect-design_1017-27277.avif",
+    image: Coming,
     description: "unknown.",
     color: "from-green-500 to-emerald-500",
   },
@@ -45,7 +49,7 @@ const certificates = [
     issuer: "Soon",
     date: "Soon",
     credentialId: "Soon",
-    image: "src/assets/coming-soon-background-with-focus-light-effect-design_1017-27277.avif",
+    image: Coming,
     description: "unknown.",
     color: "from-purple-500 to-pink-500",
   },
@@ -54,7 +58,7 @@ const certificates = [
     issuer: "Soon",
     date: "Soon",
     credentialId: "Soon",
-    image: "src/assets/coming-soon-background-with-focus-light-effect-design_1017-27277.avif",
+    image: Coming,
     description: "unknown.",
     color: "from-cyan-500 to-teal-500",
   },
