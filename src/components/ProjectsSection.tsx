@@ -2,45 +2,46 @@ import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef, useState } from "react";
 import { ExternalLink, Github, ArrowUpRight, Eye } from "lucide-react";
+import XproImg from "@/assets/xpro.png";
+import OsisImg from "@/assets/dashboard-osis.png";
+import OnlyCarsImg from "@/assets/only-cars.png";
+import WeddingImg from "@/assets/wedding.png";
+
 
 const projects = [
-  {
+   {
     title: "Xpro Travel",
-    description: "Expro Travel adalah website layanan perjalanan wisata yang dirancang untuk memberikan pengalaman liburan terbaik bagi keluarga, pasangan, maupun perjalanan pribadi.",
-    image: "src/assets/xpro.png",
+    description: "...",
+    image: XproImg,
     tags: ["Html", "Bootstrap", "JavaScript"],
-    liveUrl: "#",
-    githubUrl: "https://github.com/RanggaAzka/Xpro-Travel-Page",
+    githubUrl: "...",
     featured: true,
     color: "from-cyan-500/20 to-blue-500/20",
   },
   {
     title: "Dashboard Osis",
-    description: "Dashboard OSIS ini merupakan platform manajemen pemilihan ketua OSIS yang dirancang untuk menampilkan data pemilu secara jelas, terstruktur, dan mudah dipahami.",
-    image: "src/assets/dashboard-osis.png",
+    description: "...",
+    image: OsisImg,
     tags: ["Html", "Bootstrap", "PHP"],
-    liveUrl: "#",
-    githubUrl: "https://github.com/RanggaAzka/Dashboard-OSIS-Sertikom",
+    githubUrl: "...",
     featured: true,
     color: "from-purple-500/20 to-pink-500/20",
   },
   {
     title: "Only Cars",
-    description: "Only Cars adalah sebuah website katalog dan informasi otomotif yang menampilkan berbagai pilihan kendaraan dengan tampilan modern dan profesional.",
-    image: "src/assets/only-cars.png",
+    description: "...",
+    image: OnlyCarsImg,
     tags: ["Laravel", "Bootstrap", "PHP"],
-    liveUrl: "#",
-    githubUrl: "https://github.com/RanggaAzka/Only-Cars",
+    githubUrl: "...",
     featured: false,
     color: "from-orange-500/20 to-red-500/20",
   },
   {
-    title: "Weding",
-    description: "Website undangan pernikahan ini dirancang dengan tampilan elegan dan modern, menampilkan foto pasangan pengantin sebagai latar utama yang memberi kesan hangat dan personal.",
-    image: "src/assets/wedding.png",
+    title: "Wedding",
+    description: "...",
+    image: WeddingImg,
     tags: ["Html", "CSS", "Bootstrap"],
-    liveUrl: "#",
-    githubUrl: "https://github.com/RanggaAzka/Wedding-Page",
+    githubUrl: "...",
     featured: false,
     color: "from-green-500/20 to-emerald-500/20",
   },

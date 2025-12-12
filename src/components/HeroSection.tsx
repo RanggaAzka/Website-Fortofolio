@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import { ArrowDown, Github, Linkedin, Mail, Download, Instagram } from "lucide-react";
 import { useEffect, useState } from "react";
+import ProfileImg from "@/assets/rangga_azka-removebg-preview (1).png";
+
 
 const roles = [
   "Developer",
@@ -198,7 +200,7 @@ const HeroSection = () => {
 
                   {/* FOTO */}
                   <motion.img
-                    src="src/assets/rangga_azka-removebg-preview (1).png" // <--- ganti sesuai nama file kamu
+                    src={ProfileImg}
                     alt="Profile"
                     className="mx-auto h-56 object-contain drop-shadow-[0_0_15px_rgba(0,255,255,0.5)]"
                     animate={{ scale: [1, 1.05, 1] }}
