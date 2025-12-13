@@ -2,34 +2,38 @@ import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef, useState } from "react";
 import { ExternalLink, Github, ArrowUpRight, Eye } from "lucide-react";
-import XproImg from "@/assets/xpro.png";
-import OsisImg from "@/assets/dashboard-osis.png";
-import OnlyCarsImg from "@/assets/only-cars.png";
-import WeddingImg from "@/assets/wedding.png";
+import XproImg from "@/assets/xpro-optimized.jpg";
+import OsisImg from "@/assets/dashboard-osis-optimized.jpg";
+import OnlyCarsImg from "@/assets/only-cars-optimized.jpg";
+import WeddingImg from "@/assets/weddingg-optimized.jpg";
+
 
 
 const projects = [
-   {
+    {
     title: "Xpro Travel",
-    description: "Expro Travel adalah website layanan perjalanan wisata yang dirancang untuk memberikan pengalaman liburan terbaik bagi keluarga, pasangan, maupun perjalanan pribadi.",
+    description:
+      "Expro Travel adalah website layanan perjalanan wisata yang dirancang untuk memberikan pengalaman liburan terbaik bagi keluarga, pasangan, maupun perjalanan pribadi.",
     image: XproImg,
-    tags: ["Html", "Bootstrap", "JavaScript"],
+    tags: ["HTML", "Bootstrap", "JavaScript"],
     githubUrl: "https://github.com/RanggaAzka/Xpro-Travel-Page",
     featured: true,
     color: "from-cyan-500/20 to-blue-500/20",
   },
   {
-    title: "Dashboard Osis",
-    description: "Dashboard OSIS ini merupakan platform manajemen pemilihan ketua OSIS yang dirancang untuk menampilkan data pemilu secara jelas, terstruktur, dan mudah dipahami.",
+    title: "Dashboard OSIS",
+    description:
+      "Dashboard OSIS ini merupakan platform manajemen pemilihan ketua OSIS yang dirancang untuk menampilkan data pemilu secara jelas, terstruktur, dan mudah dipahami.",
     image: OsisImg,
-    tags: ["Html", "Bootstrap", "PHP"],
+    tags: ["HTML", "Bootstrap", "PHP"],
     githubUrl: "https://github.com/RanggaAzka/Dashboard-OSIS-Sertikom",
     featured: true,
     color: "from-purple-500/20 to-pink-500/20",
   },
   {
     title: "Only Cars",
-    description: "Only Cars adalah sebuah website katalog dan informasi otomotif yang menampilkan berbagai pilihan kendaraan dengan tampilan modern dan profesional.",
+    description:
+      "Only Cars adalah sebuah website katalog dan informasi otomotif yang menampilkan berbagai pilihan kendaraan dengan tampilan modern dan profesional.",
     image: OnlyCarsImg,
     tags: ["Laravel", "Bootstrap", "PHP"],
     githubUrl: "https://github.com/RanggaAzka/Only-Cars",
@@ -38,9 +42,10 @@ const projects = [
   },
   {
     title: "Wedding",
-    description: "Website undangan pernikahan ini dirancang dengan tampilan elegan dan modern, menampilkan foto pasangan pengantin sebagai latar utama yang memberi kesan hangat dan personal.",
+    description:
+      "Website undangan pernikahan ini dirancang dengan tampilan elegan dan modern, menampilkan foto pasangan pengantin sebagai latar utama yang memberi kesan hangat dan personal.",
     image: WeddingImg,
-    tags: ["Html", "CSS", "Bootstrap"],
+    tags: ["HTML", "CSS", "Bootstrap"],
     githubUrl: "https://github.com/RanggaAzka/Wedding-Page",
     featured: false,
     color: "from-green-500/20 to-emerald-500/20",

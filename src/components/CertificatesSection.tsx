@@ -2,8 +2,8 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef, useState } from "react";
 import { Award, ExternalLink, Calendar, Building2, X, ChevronLeft, ChevronRight } from "lucide-react";
-import Sertif1 from "@/assets/sertif-1.jpg";
-import Sertif2 from "@/assets/sertif-2.jpg";
+import Sertif1 from "@/assets/sertif-1-optimized.jpg";
+import Sertif2 from "@/assets/sertif-2-optimized.jpg";
 import Coming from "@/assets/coming-soon-background-with-focus-light-effect-design_1017-27277.avif";
 
 
